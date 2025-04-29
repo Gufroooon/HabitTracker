@@ -1,51 +1,60 @@
-# Welcome to your Expo app 👋
+# Habit Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application built with Expo and React Native to help users track and maintain their daily habits.  
+The app features a clean, intuitive interface with both light and dark mode support.
 
-## Get started
+## Features
+- **Habit Tracking**: Create, manage, and track your daily habits
+- **Categories**: Organize habits with different categories (Wajib/Sunah)
+- **Explore Section**: Discover new habit ideas and recommendations
+- **Dark/Light Mode**: Full support for both light and dark themes
+- **Responsive Design**: Works seamlessly across different device sizes
 
-1. Install dependencies
+## Tech Stack
+- [Expo](https://expo.dev/) - React Native framework
+- [Expo Router](https://expo.github.io/router/docs) - File-based routing
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe code
+- Custom theming system with light/dark mode support
 
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or newer)
+- npm or yarn
+- Expo CLI
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/habit-tracker.git
+2. Navigate to the project directory:
+   ```bash
+   cd habit-tracker
+3. Install dependencies:
    ```bash
    npm install
-   ```
-
-2. Start the app
-
+4. Start the development server:
    ```bash
-    npx expo start
-   ```
+   npx expo start
 
-In the output, you'll find options to open the app in a
+## Usage
+After starting the development server, you can:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-Open the app on an iOS simulator
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-Open the app on an Android emulator
 
-## Get a fresh project
+-Scan the QR code with the Expo Go app on your physical device
 
-When you're ready, run:
+-Open in a web browser (if web support is enabled)   
 
+## Project Structure
 ```bash
-npm run reset-project
-```
+habit-tracker/
+├── app/                  # Main application code with file-based routing
+│   └── (tabs)/           # Tab-based navigation screens
+├── constants/            # App constants including Colors
+├── assets/               # Static assets like images and fonts
+└── components/           # Reusable UI components
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# HabitTracker
